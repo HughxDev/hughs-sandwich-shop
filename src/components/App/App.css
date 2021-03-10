@@ -1,0 +1,115 @@
+html {
+  --color-primary: #764b8e;
+  --color-secondary: #a5c663;
+}
+
+body {
+  line-height: 1.5;
+  font-family: sans-serif;
+  padding: 1.5rem 0 3rem;
+  background: url("https://i.imgur.com/HiemJRb.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
+  body {
+    background: url("https://i.imgur.com/9ltPqVc.png");
+    background-size: 500px 300px;
+  }
+}
+
+a {
+  color: var(--color-primary);
+}
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active,
+a:visited {
+  color: var(--color-secondary);
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+@media only screen and (min-width: 50em) {
+  h1,
+  h2,
+  h3 {
+    text-align: left;
+  }
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+dl {
+  margin: 0.75rem 0;
+}
+
+ul {
+  padding-left: 1rem;
+}
+
+dt,
+dd,
+li {
+  margin: 0.5rem 0;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 0;
+}
+
+hr {
+  margin: 1.5rem auto;
+}
+
+.app-container {
+  max-width: 90vw;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 50em) {
+  .app-container {
+    max-width: 50vw;
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 50em) {
+  .row {
+    flex-direction: row;
+  }
+}
+
+.column {
+  flex: 1;
+}
+
+.key {
+  font-weight: bold;
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "label": "E-mail",
+    "url": "mailto:hugh@hughguiney.com"
+  },
+  {
+    "label": "Website",
+    "url": "https://hughx.dev/from-resume"
+  },
+  {
+    "label": "GitHub",
+    "url": "https://github.com/hguiney"
+  },
+  {
+    "label": "Stack Overflow",
+    "url": "https://stackoverflow.com/users/214325/hugh-guiney"
+  },
+  {
+    "label": "LinkedIn",
+    "url": "https://www.linkedin.com/in/hughguiney"
+  },
+  {
+    "label": "Twitter",
+    "url": "https://twitter.com/HughxDev"
+  }
+]

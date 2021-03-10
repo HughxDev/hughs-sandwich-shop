@@ -1,0 +1,20 @@
+.current-order__summary,
+.current-order__total {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.current-order__summary {
+  max-width: 6.9rem;
+}
+
+.current-order__total {
+  width: 6rem;
+}
+
+@media only screen and (min-width: 50em) {
+  .current-order__total {
+    margin-left: unset;
+    margin-right: unset;
+  }
+}

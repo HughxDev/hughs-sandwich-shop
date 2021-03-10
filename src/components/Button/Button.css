@@ -1,0 +1,49 @@
+.button {
+  position: relative;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  box-shadow: 0.0625rem 0.0625rem 0.125rem rgba(0, 0, 0, 0.75),
+    0.125rem 0.125rem 0 rgba(0, 0, 0, 0.125) inset;
+  font-size: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media only screen and (min-width: 50em) {
+  .button {
+    margin-left: unset;
+    margin-right: unset;
+  }
+}
+
+.button:active {
+  top: 0.125rem;
+  left: 0.125rem;
+  box-shadow: 0.125rem 0.125rem 0.125rem rgba(0, 0, 0, 0.75),
+    0.125rem 0.125rem 0.5rem rgba(0, 0, 0, 0.125) inset;
+}
+
+.button.button--primary,
+.button.button--secondary {
+  color: white;
+}
+
+.button.button--primary {
+  background-color: var(--color-primary);
+}
+
+.button.button--secondary {
+  background-color: var(--color-secondary);
+}
+
+.button.button--icon {
+  background-color: transparent;
+  box-shadow: none;
+  padding: 0.125rem;
+  line-height: 1;
+  font-size: 2rem;
+  margin-left: 0.5rem;
+  color: #764b8e;
+}

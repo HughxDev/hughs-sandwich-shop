@@ -1,0 +1,27 @@
+.menu__item {
+  text-align: center;
+}
+
+@media only screen and (min-width: 50em) {
+  .menu__item {
+    text-align: left;
+  }
+}
+
+.menu__item + .menu__item {
+  margin-top: 3rem;
+}
+
+@media only screen and (min-width: 50em) {
+  .menu__item + .menu__item {
+    margin-top: 0;
+    margin-left: 3rem;
+  }
+}
+
+.menu__image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+}

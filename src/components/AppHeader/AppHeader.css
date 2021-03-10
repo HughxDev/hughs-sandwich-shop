@@ -1,0 +1,14 @@
+.app-header,
+.app-header__title {
+  text-align: center;
+}
+
+.app-header__title {
+  margin-bottom: 0;
+}
+
+.app-header__tagline {
+  font-style: italic;
+  margin-top: 0;
+  font-size: 1.125rem;
+}
