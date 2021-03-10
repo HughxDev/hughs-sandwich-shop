@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import branding from "../../data/branding";
 import contactDetails from "../../data/contactDetails";
 import "./AppHeader.css";

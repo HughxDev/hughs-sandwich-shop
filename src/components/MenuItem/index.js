@@ -21,6 +21,9 @@ export default function MenuItem(props) {
       case "Turkey":
         url = "https://i.imgur.com/i2y0TWN.jpg";
         break;
+      default:
+        url = '';
+        console.error(`Unrecognized menu item; can’t render image`);
     }
 
     return (
