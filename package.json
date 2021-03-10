@@ -1,7 +1,12 @@
 {
   "name": "hughs-sandwich-shop",
+  "description": "A passed coding test for a previous employer demonstrating Hugh Guiney’s frontend skills. (React/HTML/CSS/JavaScript)",
+  "homepage": "https://hughs-sandwich-shop.netlify.app/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hguiney/hughs-sandwich-shop"
+  },
   "version": "1.0.0",
-  "description": "",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
